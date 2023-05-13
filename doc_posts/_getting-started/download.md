@@ -1,39 +1,40 @@
 ---
 layout: default
-title: Download
-menu: Getting Started
+title: Загрузка
+menu: Старт работы
 num: 2
 permalink: /download
 type: fullpage
 ---
 
-### How to Download SAMMI
+### Как скачать SAMMI
 
-When you download SAMMI, the package includes SAMMI Core, SAMMI Bridge, SAMMI Panel, and SAMMI Voice.
 
-Please note that SAMMI Core is fully supported on Windows 10 and later versions.  
+Когда вы загружаете SAMMI, пакет включает в себя SAMMI Core, SAMMI Bridge, SAMMI Panel и SAMMI Voice.
 
-While it may be possible to run SAMMI on Linux and macOS using [Wine](https://www.winehq.org/), we cannot guarantee full functionality and do not offer technical support for this setup. If you choose to use Wine, ensure that it is configured to emulate Windows 10 or later.
+Обратите внимание, что SAMMI Core полностью поддерживается в Windows 10 и последующих версиях.
 
-<iframe frameborder="0" src="https://itch.io/embed/1701438?dark=true" width="552" height="167"><a href="https://sammisolutions.itch.io/sammi">SAMMI by SAMMI</a></iframe>
+Хотя возможно запустить SAMMI на Linux и macOS с помощью Wine, мы не можем гарантировать полную функциональность и не предоставляем технической поддержки для такой настройки. Если вы решите использовать [Wine](https://www.winehq.org/), убедитесь, что он настроен на эмуляцию Windows 10 или более поздней версии.
 
-For early access to beta versions of SAMMI, consider becoming our [Patron](https://www.patreon.com/sammidevs)!
+<iframe frameborder="0" src="https://itch.io/embed/1701438?dark=true" width="552" height="167"><a href="https://sammisolutions.itch.io/sammi">SAMMI от SAMMI</a></iframe>
 
-### Required Software
+Чтобы получить ранний доступ к бета-версиям SAMMI, рассмотрите возможность стать нашим [Патроном](https://www.patreon.com/sammidevs)!
+
+### Необходимое ПО
 
 **OBS Studio**     
-SAMMI Core is compatible with OBS Studio. Other streaming software, such as Streamlabs OBS, is not currently supported.
+SAMMI Core совместим с OBS Studio. Другое программное обеспечение для стриминга, такое как Streamlabs OBS, в настоящее время не поддерживается.
 
-<a href="https://obsproject.com/"><button type="button" class="btn btn-outline-secondary">Download OBS Studio</button></a>
+<a href="https://obsproject.com/"><button type="button" class="btn btn-outline-secondary">Скачать OBS Studio</button></a>
   
 **OBS Websocket**       
-OBS Websocket enables communication between SAMMI Core and OBS Studio. SAMMI is compatible with OBS Websocket versions 5.0 and 4.9. However, we highly recommend using OBS Websocket 5.0 with OBS Studio versions 28 and 29, as it is the latest version.  
+OBS Websocket обеспечивает взаимодействие между SAMMI Core и OBS Studio. SAMMI совместим с версиями OBS Websocket 5.0 и 4.9. Однако мы настоятельно рекомендуем использовать OBS Websocket 5.0 с версиями OBS Studio 28 и 29, поскольку это последняя версия.
 
-OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so there is no need to install it separately.  
+OBS Studio 28 и более поздние версии поставляются с предустановленным OBS Websocket 5.0, поэтому нет необходимости устанавливать его отдельно.
 
-While OBS Websocket 5.0 is preferred, there may be specific cases where OBS Websocket 4.9 is still needed, such as when using certain outdated plugins that have not yet been updated for compatibility with OBS Websocket 5.0. For users who need to maintain compatibility with OBS Websocket 4.9, OBS Studio 28 supports the installation of the OBS Websocket 4.9.1-compat plugin, which can be downloaded from the link below.
+Хотя OBS Websocket 5.0 является предпочтительным, могут быть особые случаи, когда все еще требуется OBS Websocket 4.9, например, при использовании некоторых устаревших плагинов, которые еще не были обновлены для совместимости с OBS Websocket 5.0. Для пользователей, которым необходимо поддерживать совместимость с OBS Websocket 4.9, OBS Studio 28 поддерживает установку плагина OBS Websocket 4.9.1-compat, который можно скачать по ссылке ниже.
 
-<a href="https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket 4.9.1 for OBS 28</button></a>
+<a href="https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat"><button type="button" class="btn btn-outline-secondary">Скачать OBS Websocket 4.9.1 для OBS 28</button></a>
 
-### Extensions
-You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.gg/dXez8Zh)** server!
+### Расширения
+Вы можете найти дополнительные расширения в нашей секции [Расширений](https://sammi.solutions/extensions) или в канале #releases на нашем **[Discord](https://discord.gg/dXez8Zh)** сервере!
